@@ -1,0 +1,596 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@c43b89d03a7c43dae8bb8f0f078bad1997af6b3b/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/extent-framework/extent-github-cdn/7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Apr 13, 2022 09:03:00 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Dress Purchase In Automation Website</p>
+            <p class="text-sm">
+              <span>09:04:10 AM</span> / <span>34:20:825</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Dress Purchase In Automation Website</h5>
+<span class='badge badge-success'>04.13.2022 09:04:10</span>
+<span class='badge badge-danger'>04.13.2022 09:08:30</span>
+<span class='badge badge-default'>34:20:825</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>User Enter The Purchase Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.sd.Step_Def.user_launch_the_application()">
+                <span>Given user launch The Application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_login_button_navigate_to_the_login_page()">
+                <span>When user Click The Login Button navigate to the login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_enter_the_username()">
+                <span>And User Enter The username</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_enter_the_password()">
+                <span>And user Enter The password</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_should_be_logged_in()">
+                <span>Then user should be logged in</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_tshirt_button()">
+                <span>When user Click The Tshirt Button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_size_checkbox()">
+                <span>And user Click the Size Checkbox</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button()">
+                <span>And User Click the button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_checkbox2_button()">
+                <span>And User Click The Checkbox2 Button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_desired_image()">
+                <span>And user click The Desired Image</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_enter_the_1framebox()">
+                <span>And user Enter the 1Framebox</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_clear_and_enter_the_1quantity()">
+                <span>And user Clear and Enter The 1Quantity</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_select_the_sizeok()">
+                <span>And user Select The Sizeok</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_colour_prefrence_button()">
+                <span>And user Click The Colour Prefrence Button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_addtocart_button()">
+                <span>And user Click The Addtocart Button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_release_the_frame_and_click_the_checkout_1button()">
+                <span>And user Release The frame And Click The Checkout 1Button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_move_down_and_click_proceed_to_checkout_1button()">
+                <span>And user Move Down And Click Proceed to Checkout 1Button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout11()">
+                <span>And user Click THE Button Checkout11</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout12()">
+                <span>And user Click THE Button Checkout12</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout13()">
+                <span>And user Click THE Button Checkout13</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout14()">
+                <span>And user Click THE Button Checkout14</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout15()">
+                <span>And user Click THE Button Checkout15</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_logout_button_navigate_to_homepage1()">
+                <span>Then user Click The Logout Button Navigate To Homepage1</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="26"><span class="badge log pass-bg mr-2">Pass</span>User Enter The Women Dress Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.sd.Step_Def.user_launch_the_application()">
+                <span>Given user launch The Application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_login_button_navigate_to_the_login_page()">
+                <span>When user Click The Login Button navigate to the login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_enter_the_username()">
+                <span>And User Enter The username</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_enter_the_password()">
+                <span>And user Enter The password</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_should_be_logged_in()">
+                <span>Then user should be logged in</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_women_button()">
+                <span>When user Click The Women Button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_checkbox11()">
+                <span>And user Click the  Checkbox11</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button2()">
+                <span>And User Click the button2</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_desired_image13()">
+                <span>And user click The Desired Image13</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_enter_the_framebox1()">
+                <span>And user Enter the Framebox1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_clear_and_enter_the_quantity1()">
+                <span>And user Clear and Enter The Quantity1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_select_the_size1()">
+                <span>And user Select The Size1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_submmit_button1()">
+                <span>And user Click The Submmit Button1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_release_the_frame_and_click_the_checkout_button1()">
+                <span>And user Release The frame And Click The Checkout Button1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_move_down_and_click_proceed_to_checkout_button1()">
+                <span>And user Move Down And Click Proceed to Checkout Button1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout111()">
+                <span>And user Click THE Button Checkout111</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout21()">
+                <span>And user Click THE Button Checkout21</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout23()">
+                <span>And user Click THE Button Checkout23</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout24()">
+                <span>And user Click THE Button Checkout24</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout25()">
+                <span>And user Click THE Button Checkout25</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_logout_button_navigate_to_2homepage()">
+                <span>Then user Click The Logout Button Navigate To 2Homepage</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="48"><span class="badge log pass-bg mr-2">Pass</span>User Enter The Dress Purchase Page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.sd.Step_Def.user_launch_the_application()">
+                <span>Given user launch The Application</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_login_button_navigate_to_the_login_page()">
+                <span>When user Click The Login Button navigate to the login page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_enter_the_username()">
+                <span>And User Enter The username</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_enter_the_password()">
+                <span>And user Enter The password</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_should_be_logged_in()">
+                <span>Then user should be logged in</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_dress_button()">
+                <span>When user Click The Dress Button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_checkbox1()">
+                <span>And user Click the  Checkbox1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_desired_image3()">
+                <span>And user click The Desired Image3</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_enter_the_framebox()">
+                <span>And user Enter the Framebox</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_clear_and_enter_the_quantity()">
+                <span>And user Clear and Enter The Quantity</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_select_the_size()">
+                <span>And user Select The Size</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_submmit_button()">
+                <span>And user Click The Submmit Button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_release_the_frame_and_click_the_checkout_button()">
+                <span>And user Release The frame And Click The Checkout Button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_move_down_and_click_proceed_to_checkout_button()">
+                <span>And user Move Down And Click Proceed to Checkout Button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout1()">
+                <span>And user Click THE Button Checkout1</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout2()">
+                <span>And user Click THE Button Checkout2</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout3()">
+                <span>And user Click THE Button Checkout3</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_button_checkout4()">
+                <span>And user Click THE Button Checkout4</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.sd.Step_Def.user_click_the_logout_button_navigate_to_homepage()">
+                <span>Then user Click The Logout Button Navigate To Homepage</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Apr 13, 2022 09:03:00 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Apr 13, 2022 09:08:31 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>3</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>63</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Dress Purchase In Automation Website":260.825
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 3,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 63,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@14e9bb345ef7e2ed3a102f271d84e9f0267c88e7/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>

@@ -1,0 +1,829 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 45703646000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch The Application",
+            "match": {
+              "location": "com.sd.Step_Def.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 11010915000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Click The Login Button navigate to the login page",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_login_button_navigate_to_the_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7668399500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enter The username",
+            "match": {
+              "location": "com.sd.Step_Def.user_enter_the_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1059264700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Enter The password",
+            "match": {
+              "location": "com.sd.Step_Def.user_enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5062838600,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should be logged in",
+            "match": {
+              "location": "com.sd.Step_Def.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-13T03:34:08.411Z",
+        "line": 15,
+        "name": "User Enter The Purchase Page",
+        "description": "",
+        "id": "dress-purchase-in-automation-website;user-enter-the-purchase-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 9745625800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user Click The Tshirt Button",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_tshirt_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1220248300,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user Click the Size Checkbox",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_size_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 482121200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Click the button",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 220054700,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Click The Checkbox2 Button",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_checkbox2_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8601727800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user click The Desired Image",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_desired_image()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6409852000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user Enter the 1Framebox",
+            "match": {
+              "location": "com.sd.Step_Def.user_enter_the_1framebox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3543879300,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "user Clear and Enter The 1Quantity",
+            "match": {
+              "location": "com.sd.Step_Def.user_clear_and_enter_the_1quantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1448357500,
+              "status": "passed"
+            },
+            "line": 31,
+            "name": "user Select The Sizeok",
+            "match": {
+              "location": "com.sd.Step_Def.user_select_the_sizeok()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 713180900,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user Click The Colour Prefrence Button",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_colour_prefrence_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 422668200,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "user Click The Addtocart Button",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_addtocart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6615308700,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "user Release The frame And Click The Checkout 1Button",
+            "match": {
+              "location": "com.sd.Step_Def.user_release_the_frame_and_click_the_checkout_1button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3491991900,
+              "status": "passed"
+            },
+            "line": 39,
+            "name": "user Move Down And Click Proceed to Checkout 1Button",
+            "match": {
+              "location": "com.sd.Step_Def.user_move_down_and_click_proceed_to_checkout_1button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2935244900,
+              "status": "passed"
+            },
+            "line": 41,
+            "name": "user Click THE Button Checkout11",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout11()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 296581800,
+              "status": "passed"
+            },
+            "line": 43,
+            "name": "user Click THE Button Checkout12",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout12()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2727198800,
+              "status": "passed"
+            },
+            "line": 45,
+            "name": "user Click THE Button Checkout13",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout13()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2747687800,
+              "status": "passed"
+            },
+            "line": 47,
+            "name": "user Click THE Button Checkout14",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout14()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5129697500,
+              "status": "passed"
+            },
+            "line": 49,
+            "name": "user Click THE Button Checkout15",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout15()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4536048300,
+              "status": "passed"
+            },
+            "line": 51,
+            "name": "user Click The Logout Button Navigate To Homepage1",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_logout_button_navigate_to_homepage1()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3361824400,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch The Application",
+            "match": {
+              "location": "com.sd.Step_Def.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3610887600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Click The Login Button navigate to the login page",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_login_button_navigate_to_the_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 344601300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enter The username",
+            "match": {
+              "location": "com.sd.Step_Def.user_enter_the_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 286073100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Enter The password",
+            "match": {
+              "location": "com.sd.Step_Def.user_enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3456083100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should be logged in",
+            "match": {
+              "location": "com.sd.Step_Def.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-13T03:36:22.579Z",
+        "line": 53,
+        "name": "User Enter The Women Dress Page",
+        "description": "",
+        "id": "dress-purchase-in-automation-website;user-enter-the-women-dress-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4580861700,
+              "status": "passed"
+            },
+            "line": 55,
+            "name": "user Click The Women Button",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_women_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 295074300,
+              "status": "passed"
+            },
+            "line": 57,
+            "name": "user Click the  Checkbox11",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_checkbox11()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5221742700,
+              "status": "passed"
+            },
+            "line": 59,
+            "name": "User Click the button2",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 642160700,
+              "status": "passed"
+            },
+            "line": 61,
+            "name": "user click The Desired Image13",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_desired_image13()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7222900700,
+              "status": "passed"
+            },
+            "line": 63,
+            "name": "user Enter the Framebox1",
+            "match": {
+              "location": "com.sd.Step_Def.user_enter_the_framebox1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5252343300,
+              "status": "passed"
+            },
+            "line": 65,
+            "name": "user Clear and Enter The Quantity1",
+            "match": {
+              "location": "com.sd.Step_Def.user_clear_and_enter_the_quantity1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 262066000,
+              "status": "passed"
+            },
+            "line": 67,
+            "name": "user Select The Size1",
+            "match": {
+              "location": "com.sd.Step_Def.user_select_the_size1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1707427800,
+              "status": "passed"
+            },
+            "line": 69,
+            "name": "user Click The Submmit Button1",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_submmit_button1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7586783600,
+              "status": "passed"
+            },
+            "line": 71,
+            "name": "user Release The frame And Click The Checkout Button1",
+            "match": {
+              "location": "com.sd.Step_Def.user_release_the_frame_and_click_the_checkout_button1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2740722800,
+              "status": "passed"
+            },
+            "line": 73,
+            "name": "user Move Down And Click Proceed to Checkout Button1",
+            "match": {
+              "location": "com.sd.Step_Def.user_move_down_and_click_proceed_to_checkout_button1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4209411100,
+              "status": "passed"
+            },
+            "line": 75,
+            "name": "user Click THE Button Checkout111",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout111()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 762709400,
+              "status": "passed"
+            },
+            "line": 77,
+            "name": "user Click THE Button Checkout21",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout21()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2995650800,
+              "status": "passed"
+            },
+            "line": 79,
+            "name": "user Click THE Button Checkout23",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout23()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2592601600,
+              "status": "passed"
+            },
+            "line": 81,
+            "name": "user Click THE Button Checkout24",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout24()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4381306700,
+              "status": "passed"
+            },
+            "line": 83,
+            "name": "user Click THE Button Checkout25",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout25()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5655720100,
+              "status": "passed"
+            },
+            "line": 85,
+            "name": "user Click The Logout Button Navigate To 2Homepage",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_logout_button_navigate_to_2homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "User is Logged In",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 2899735000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user launch The Application",
+            "match": {
+              "location": "com.sd.Step_Def.user_launch_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2824695900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Click The Login Button navigate to the login page",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_login_button_navigate_to_the_login_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 366091000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Enter The username",
+            "match": {
+              "location": "com.sd.Step_Def.user_enter_the_username()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 507646700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user Enter The password",
+            "match": {
+              "location": "com.sd.Step_Def.user_enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2465835200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user should be logged in",
+            "match": {
+              "location": "com.sd.Step_Def.user_should_be_logged_in()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-13T03:37:29.938Z",
+        "line": 87,
+        "name": "User Enter The Dress Purchase Page",
+        "description": "",
+        "id": "dress-purchase-in-automation-website;user-enter-the-dress-purchase-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5512522800,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "user Click The Dress Button",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_dress_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5257318800,
+              "status": "passed"
+            },
+            "line": 91,
+            "name": "user Click the  Checkbox1",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_checkbox1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 974375300,
+              "status": "passed"
+            },
+            "line": 93,
+            "name": "user click The Desired Image3",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_desired_image3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3599061300,
+              "status": "passed"
+            },
+            "line": 95,
+            "name": "user Enter the Framebox",
+            "match": {
+              "location": "com.sd.Step_Def.user_enter_the_framebox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 485124000,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "user Clear and Enter The Quantity",
+            "match": {
+              "location": "com.sd.Step_Def.user_clear_and_enter_the_quantity()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 329082100,
+              "status": "passed"
+            },
+            "line": 99,
+            "name": "user Select The Size",
+            "match": {
+              "location": "com.sd.Step_Def.user_select_the_size()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6119056800,
+              "status": "passed"
+            },
+            "line": 101,
+            "name": "user Click The Submmit Button",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_submmit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8804972000,
+              "status": "passed"
+            },
+            "line": 103,
+            "name": "user Release The frame And Click The Checkout Button",
+            "match": {
+              "location": "com.sd.Step_Def.user_release_the_frame_and_click_the_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2789140700,
+              "status": "passed"
+            },
+            "line": 105,
+            "name": "user Move Down And Click Proceed to Checkout Button",
+            "match": {
+              "location": "com.sd.Step_Def.user_move_down_and_click_proceed_to_checkout_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3203045200,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "user Click THE Button Checkout1",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1182789900,
+              "status": "passed"
+            },
+            "line": 109,
+            "name": "user Click THE Button Checkout2",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout2()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3402485400,
+              "status": "passed"
+            },
+            "line": 111,
+            "name": "user Click THE Button Checkout3",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout3()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3949236600,
+              "status": "passed"
+            },
+            "line": 113,
+            "name": "user Click THE Button Checkout4",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_button_checkout4()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6351100100,
+              "status": "passed"
+            },
+            "line": 115,
+            "name": "user Click The Logout Button Navigate To Homepage",
+            "match": {
+              "location": "com.sd.Step_Def.user_click_the_logout_button_navigate_to_homepage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Dress Purchase In Automation Website",
+    "description": "",
+    "id": "dress-purchase-in-automation-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/com/testrunner/automation.feature",
+    "tags": []
+  }
+]
